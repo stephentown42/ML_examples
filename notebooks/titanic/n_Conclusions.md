@@ -6,4 +6,8 @@ What could be done to save more people? The data don't really tell us, they just
 
 If we truly want to learn from this data, we need meaningful features that we can take action on. For example, was the passenger wearing a life vest, were they evacuated in a lifeboat, or if not, how long did they spend in the water? Some of this information is actually available and illustrates how the insights we gain from data analysis are shaped by the sources and methods of collection.
 
+### Science vs. Machine Learning
 
+More generally, the aim of the scientific approach is to discover universal rules (natural laws) that apply across conditions. To identify such rules, we need systems that we can interrogate
+
+It is possible to use ML to discover something about fundamental about a problem, if the application is well posed. For example, a system such as Google Translate find the latent space that languages share.
