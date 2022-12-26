@@ -13,6 +13,8 @@ Contents
 1. Understanding the data
 2. Imputing missing values
 
+
+
 Building pipelines (https://scikit-learn.org/stable/modules/compose.html)
 
 https://www.kaggle.com/competitions/titanic
@@ -24,6 +26,14 @@ At the end of chapters 1-3, we will save a modified version of the training and 
 In Chapters 4 onwards, we will produce predictions for testing on Kaggle. 
 
 
+
+
+### Dummy response
+
+The Kaggle competition sets a pretty high baseline by just using passenger's gender to predict survival (performance ~ 74%???). This model predicts that women surive and men perished in the disaster. To improve on the performance, we should start by asking
+- why did some men survive?
+- why did some women not survive?
+Following these threads will help us begin to unravel the story, produce new leads and new questions that build a more complex picture of a dataset with meaning, but also gaps. Our role as data scientists is to recognise that meaning and develop the intuition to accurately bridge those gaps, ultimately leading to our ability to predict the surival outcomes for nearly all passengers (hopefully!)
 
 
 
