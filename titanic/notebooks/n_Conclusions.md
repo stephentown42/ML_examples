@@ -11,3 +11,8 @@ If we truly want to learn from this data, we need meaningful features that we ca
 More generally, the aim of the scientific approach is to discover universal rules (natural laws) that apply across conditions. To identify such rules, we need systems that we can interrogate
 
 It is possible to use ML to discover something about fundamental about a problem, if the application is well posed. For example, a system such as Google Translate find the latent space that languages share.
+
+### Hypothesis based vs. Performance based workflows
+In this repository, I've tried to work from first principles to understand the input data and extract what I believe are meaningful features for subsequent testing. This hypothesis-first approach comes from my background as a research scientist and can be compared with a different workflows that is common in machine learning that focuses on predictive performance at the outset. 
+
+With this approach, one establishes a baseline performance first and asks how can that be beaten. In the case of the titanic dataset, the baseline is provided by Kaggle using a model based on gender that performs well. This model assumes that all women survive and all men perish. The model errors are thus cases where men survive and women perish, and so one is thus motivated to identify these cases. 
