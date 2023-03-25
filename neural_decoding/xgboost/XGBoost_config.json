@@ -1,0 +1,23 @@
+{
+    "spiketime_file": "Task_Switching/spike_times_220606_1808.hdf5",
+    "chan_map": "data/tables/chan_maps/Warp_to_TypeH_ChanMap.txt",
+    "ferret": 1605,
+    "region": "APC",
+    "electrode": 1,
+    "depth": -3.9,
+    "bin_width": 0.02,
+    "bin_start": -0.10,
+    "bin_end": 2.0,
+    "k_folds": 8,
+    "xgb_params": {
+        "n_estimators": 580,
+        "max_depth": 5, 
+        "learning_rate": 0.05,
+        "gamma": 0.4,
+        "min_child_weight": 2,
+        "subsample": 0.6,
+        "random_state": 2925, 
+        "eval_metric": "logloss"
+    },
+    "xgb_n_rounds": 200
+}
