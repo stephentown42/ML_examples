@@ -12,7 +12,7 @@ The titanic dataset is one of the most widely used sources for data science boot
 
 When reading articles on how to analyse the titanic dataset, I discovered that many were illuminating and picked up on subtle ideas related to missing data (Chapter 2) and over-parameterization (Chapter 3). However, in other cases, I found myself disagreeing with assumptions or curious about the outcome if one were to take an alternative interpretation. This is not unsuprising as any project involves some subjective decisions and, as scientists, we can always test if doing something different leads to a better outcome.
 
-This repository is thus my attempt to do something different - to bring together the valuable insights others have noted with a deeper dive into the dataset. Along the way, I hope to justify my approaches, highlight and test assumptions and show the working that underlies my solution. 
+This repository is thus my attempt to do something different - to bring together the valuable insights others have noted with a deeper dive into the dataset. Along the way, I hope to justify my approaches, highlight and test assumptions and show the working that underlies my solution. If successful, the reader will gain a broader understanding of the factors that influenced passenger survival in the specific instance of the Titanic disaster, but hopefully also an appreciation for the value of critical thinking.
 
 **What this repository is not**
 This repo is not an introductory explanation for those new to data science or coding - it assumes a general familiarity with Python (or in a future release, R) as well as how to use packages such as pandas, scikit-learn, statsmodels etc. We will discuss specific functions where relevant and it is my goal to highlight concepts rather than implementation within the documentation, so that a reader without technical knowledge may find something useful. However, I won't be explaining how to install virtual environments or manage packages.
@@ -36,9 +36,11 @@ In Chapters 4 onwards, we will produce predictions for testing on Kaggle.
 
 ### Dummy response
 
-The Kaggle competition sets a pretty high baseline by just using passenger's gender to predict survival (performance ~ 74%???). This model predicts that women surive and men perished in the disaster. To improve on the performance, we should start by asking
+The Kaggle competition sets a pretty high baseline by just using passenger's gender to predict survival (performance ~ 74%). This model predicts that women surive and men perished in the disaster. To improve on the performance, we should start by asking
 - why did some men survive?
 - why did some women not survive?
+
+
 Following these threads will help us begin to unravel the story, produce new leads and new questions that build a more complex picture of a dataset with meaning, but also gaps. Our role as data scientists is to recognise that meaning and develop the intuition to accurately bridge those gaps, ultimately leading to our ability to predict the surival outcomes for nearly all passengers (hopefully!)
 
 
